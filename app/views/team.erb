@@ -4,7 +4,7 @@
     <% @team_members.each do |hero| %>
    <% binding.pry %>
     <h2>Hero Name: <%= hero[:name] %></h2>
-    <p>Hero Power: <%= hero.power %><br />
-    <p>Hero Biography: <%= hero.bio %></p>
+    <p>Hero Power: <%= hero[:power] %><br />
+    <p>Hero Biography: <%= hero[:bio] %></p>
     <% end %>
 </html>
